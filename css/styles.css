@@ -1,0 +1,28 @@
+.screen{
+    background-color: #666666;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 50px;
+}
+.gray-keys{
+    background-color: #EDEDED;
+    color: #4F4F4F;
+}
+.orange-keys{
+    background-color: #F2931E;
+    color: #ffffff;
+}
+.gray-keys,.orange-keys,.screen{
+    font-size: 35pt;
+    font-weight: bold;
+}
+.keyboard>:nth-child(1),:nth-child(2){
+    border-right: 1px solid #BAB9BA;
+    border-bottom: 1px solid #BAB9BA;
+}
+.keyboard>:nth-child(3){
+    border-bottom: 1px solid #BAB9BA;
+}
+.keyboard>:last-child{
+    border: 1px solid #F2931E;
+}
